@@ -5,9 +5,14 @@ $(document).ready(function() {
 	initializePage();
 })
 
-/*
- * Function that is called when the document is ready.
- */
+$(".friends h3").click(function(e){
+e.preventDefault();
+var name = anagrammedName($(this).html());
+$(this).html(name);
+});
+
+//Function that is called when the document is ready.
+
 function initializePage() {
 	console.log("Javascript connected!");
 }

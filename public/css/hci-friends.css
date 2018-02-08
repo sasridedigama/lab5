@@ -9,6 +9,20 @@
 	color: #CC00AA;
 }
 
-h1, h2, h3, h4, h5 {
+h1,h2,h3,h4,h5{
 	color: #8382BF;
+}
+
+.friends {
+	
+	max-width:250px; 
+
+
+}
+
+.img-rounded {
+	
+	max-width:250px; 
+	border-radius: 5%;
+
 }
